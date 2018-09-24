@@ -20,7 +20,7 @@ int main(int argc, char const *argv[]) {
   }
   printf("Numeri:\npositivi: %d\nnulli: %d\nnegativi: %d\npari: %d\ndispari: %d\n",pos,null,neg,par,dis);
   if(n0>1)
-    cc==1?printf("La sequenza e' crescente\n"):dd==1?printf("La sequenza e' decrescente\n"):printf("La sequeza non e' crescente ne' decrescente\n");
+    cc==1?printf("La sequenza e' crescente\n"):dd==1?printf("La sequenza e' decrescente\n"):printf("La sequenza non e' crescente ne' decrescente\n");
 
   return 0;
 }

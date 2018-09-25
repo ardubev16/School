@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main(int argc, char const *argv[]) {
-  int a,b,mcd;
+  int a,b,mcm;
   printf("Inserire due numeri interi positivi\nn1=");
   scanf("%d",&a);
   printf("n2=");
@@ -9,10 +9,10 @@ int main(int argc, char const *argv[]) {
   if (a<=0 || b<=0) {
     printf("Errore: uno dei numeri inseriti e' negatvo\n");
   }
-  mcd=(a>b)?b:a;
-  while (a%mcd!=0 || b%mcd!=0) {
-    mcd--;
+  mcm=(a>b)?a:b;
+  while (mcm%a!=0 || mcm%b!=0) {
+    mcm++;
   }
-  printf("%d e' il massimo comune divisore di %d e %d\n",mcd,a,b);
+  printf("%d e' il minimo comune multiplo di %d e %d\n",mcm,a,b);
   return 0;
 }

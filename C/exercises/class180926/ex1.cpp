@@ -1,7 +1,7 @@
 #include <iostream>
 #include <math.h>
 
-int invert(int *a,int *b){
+void invert(int *a,int *b){
   int c;
   if (pow(*a,2)+pow(*b,2)>100) {
     c=*a;

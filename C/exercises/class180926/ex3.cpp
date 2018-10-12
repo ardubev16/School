@@ -1,6 +1,6 @@
 #include <iostream>
 
-int cell(int a){
+void cell(int a){
   char *pa=(char*)&a;
   printf("Indirizzi del numero e corrispettivi valori:\n");
   for (int i = 0; i<sizeof(a); i++) {

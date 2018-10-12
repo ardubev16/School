@@ -1,6 +1,6 @@
 #include <iostream>
 
-int caso1(int l){
+void caso1(int l){
   for (int i = l; i > 0; i--) {
     for (int j = l; j > 0; j--) {
       printf("* ");
@@ -9,7 +9,7 @@ int caso1(int l){
   }
 }
 
-int caso2(int l){
+void caso2(int l){
   for (int i = l; i > 0; i--) {
     if (i==l || i==1) {
       for (int j = l; j > 0; j--) {
@@ -26,7 +26,7 @@ int caso2(int l){
   }
 }
 
-int caso3(int l){
+void caso3(int l){
   int k=1;
   for (int i = l; i > 0; i--) {
     for (int j = 0; j < k; j++) {
@@ -37,7 +37,7 @@ int caso3(int l){
   }
 }
 
-int caso4(int l){
+void caso4(int l){
   int k=1;
   for (int i = l; i > 0; i--) {
     for (int j = 0; j < k; j++) {
